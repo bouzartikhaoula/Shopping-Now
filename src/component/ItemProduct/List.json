@@ -1,86 +1,86 @@
 [{
     "id":1,
-    "name":"kichen",
+    "name":"Kitchen",
     "imgUrl":"../image/kitchen1.jpg",
     "price":"4444$",
     "catigory":"Kitchen"
 },
 {
     "id":2,
-    "name":"kichen",
+    "name":"Kitchen",
     "imgUrl":"../image/kitchen2.jpg",
     "price":"5690$",
     "catigory":"Kitchen"
 },
 {
     "id":3,
-    "name":"kichen",
+    "name":"Kitchen",
     "imgUrl":"../image/kitchen3.jpg",
     "price":"4468$",
     "catigory":"Kitchen"
 },
 {
     "id":4,
-    "name":"Bad Room",
+    "name":"Bedroom",
     "imgUrl":"../image/badroom1.jpg",
     "price":"5690$",
-    "catigory":"badRoom"
+    "catigory":88
 },
 {
     "id":5,
-    "name":"Bad Room",
+    "name":"Bedroom",
     "imgUrl":"../image/badroom2.jpg",
     "price":"5690$",
-    "catigory":"badRoom"
+    "catigory":"Bedroom"
 },
 {
     "id":6,
-    "name":"Bad Room",
+    "name":"Bedroom",
     "imgUrl":"../image/badroom3.jpg",
     "price":"5690$",
-    "catigory":"badRoom"
+    "catigory":"Bedroom"
 },
 {
     "id":7,
-    "name":"wating Room",
+    "name":"Waiting Room",
     "imgUrl":"../image/waiting1.jpg",
     "price":"2000$",
-    "catigory":"waiting"
+    "catigory":"Waiting"
 },
 {
     "id":8,
-    "name":"wating Room",
+    "name":"Waiting Room",
     "imgUrl":"../image/waiting2.jpg",
     "price":"2000$",
-    "catigory":"waiting"
+    "catigory":"Waiting"
 },
 {
     "id":9,
-    "name":"wating Room",
+    "name":"Waiting Room",
     "imgUrl":"../image/waiting3.jpg",
     "price":"2000$",
-    "catigory":"waiting"
+    "catigory":"Waiting"
 },
 {
     "id":10,
-    "name":"wating Room",
+    "name":"Waiting Room",
     "imgUrl":"../image/waiting4.jpg",
     "price":"2000$",
-    "catigory":"waiting"
+    "catigory":"Waiting"
 },
 {
     "id":11,
-    "name":"kichen",
+    "name":"Kitchen",
     "imgUrl":"../image/kitchen3.jpg",
     "price":"4468$",
     "catigory":"Kitchen"
 },
 {
     "id":12,
-    "name":"Bad Room",
+    "name":"Bedroom",
     "imgUrl":"../image/badroom1.jpg",
     "price":"5690$",
-    "catigory":"badRoom"
+    "catigory":"Bedroom"
 }
 
 

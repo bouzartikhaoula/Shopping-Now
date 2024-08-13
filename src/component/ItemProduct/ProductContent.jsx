@@ -20,13 +20,13 @@ const ProductContent = ({id,name,imgUrl,price}) => {
   return (
   
   
-        <Col lg={3} md={2} >
+        <Col md={4} lg={3} sm={6} >
           <Card className="text-center mb-3" >
-            <Card.Img variant="top"  src={imgUrl}  style={{width:"280.54px" , height:"185px"}}/>
+            <Card.Img variant="top"  src={imgUrl}  style={{ height:"185px"}}/>
             <Card.Body>
               <Card.Title> {name} </Card.Title>
               <Card.Title className="text-secondary"> {price} </Card.Title>
-              <Button onClick={handelSubmit} >Details</Button>
+              <Button onClick={handelSubmit} >Add To the Card</Button>
             </Card.Body>
           </Card>
         </Col>

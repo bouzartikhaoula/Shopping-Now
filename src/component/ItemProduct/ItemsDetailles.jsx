@@ -16,7 +16,7 @@ const ItemsDetailles = ({id,name,imgUrl,price}) => {
 </div>
 </div>
     <div className="d-flex justify-content-center m-5">
-        <Button>-</Button> <h4 className='ms-3 me-3'>2</h4> <Button>+</Button> <Button className='ms-3 me-3'>Add to the Card</Button>
+        <Button>-</Button> <h4 className='ms-3 me-3'>2</h4> <Button>+</Button> <Button className='ms-3 me-3'>buy now</Button>
     </div>
 
     </div>
