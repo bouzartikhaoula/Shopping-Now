@@ -5,7 +5,11 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { useSelector } from "react-redux";
 const TopNavbar = () => {
+  const Quantity = useSelector((state) => state.cart.Quantity);
+ 
+
   return (
     <>
       <Navbar bg="dark" variant="dark" expand="lg">
@@ -52,7 +56,7 @@ const TopNavbar = () => {
                       padding: "0 6px",
                     }}
                   >
-                    2
+                    {Quantity}
                   </p>
                 </div>
               </Nav.Link>

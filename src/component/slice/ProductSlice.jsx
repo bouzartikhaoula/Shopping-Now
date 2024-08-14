@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     CartList: [],
+    Quantity:1,
   };
 
 const ProductSlice =createSlice({
@@ -11,16 +12,14 @@ const ProductSlice =createSlice({
       saveTodo: (state, action) => {
         state.CartList.push(action.payload);
       },
-      // setCheck: (state,action)=>{
-      //     state.CartList.map((todo)=>{
-      //         if (action.payload=== todo.id) {
-      //           return todo
-                  
-      //         }
-      //     })
-      // }
+      add: (state, action) => {
+        state.Quantity++;
+      },
+      restord: (state, action) => {
+        state.Quantity-- ;
+      },
     },
   });
-  export const {saveTodo,setCheck}= ProductSlice.actions
+  export const {saveTodo,add,restord}= ProductSlice.actions
   export default ProductSlice.reducer
   

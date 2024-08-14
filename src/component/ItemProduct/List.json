@@ -17,14 +17,15 @@
     "name":"Kitchen",
     "imgUrl":"../image/kitchen3.jpg",
     "price":"4468$",
-    "catigory":"Kitchen"
+    "catigory":"Kitchen",
+    "Quantity":1
 },
 {
     "id":4,
     "name":"Bedroom",
     "imgUrl":"../image/badroom1.jpg",
     "price":"5690$",
-    "catigory":88
+    "catigory":"Bedroom"
 },
 {
     "id":5,
