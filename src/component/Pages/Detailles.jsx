@@ -9,7 +9,7 @@ const Detailles = () => {
     <>
 
 {Cartlist.map((todo)=>(
-  <ItemsDetailles key={todo.id} name={todo.name} id={todo.id} imgUrl={todo.imgUrl} price={todo.price}  />
+  <ItemsDetailles key={todo.id} name={todo.name} id={todo.id} imgUrl={todo.imgUrl} price={todo.price} quantity={todo.quantity} />
 ))}
 {/* console.log(Cartlist) */}
 

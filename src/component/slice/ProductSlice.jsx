@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     CartList: [],
-    Quantity:1,
+    Quantity:0,
   };
 
 const ProductSlice =createSlice({
@@ -10,14 +10,28 @@ const ProductSlice =createSlice({
     initialState,
     reducers: {
       saveTodo: (state, action) => {
-        state.CartList.push(action.payload);
-      },
-      add: (state, action) => {
-        state.Quantity++;
-      },
-      restord: (state, action) => {
-        state.Quantity-- ;
-      },
+
+      const itemExists = state.CartList.some((e) => e.id === action.payload.id);
+  
+      if (!itemExists) {
+          state.CartList.push(action.payload);
+      }
+      state.Quantity++;
+           },
+           add: (state, action) => {
+            const item = state.CartList.find(item => item.id === action.payload.id);
+            if (item) {
+                item.quantity += 1;
+            }
+            state.Quantity++;
+        },
+        restord: (state, action) => {
+            const item = state.CartList.find(item => item.id === action.payload.id);
+            if (item && item.quantity > 0) {
+                item.quantity -= 1;
+            }
+            state.Quantity--;
+        },
     },
   });
   export const {saveTodo,add,restord}= ProductSlice.actions

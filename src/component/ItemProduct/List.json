@@ -3,14 +3,16 @@
     "name":"Kitchen",
     "imgUrl":"../image/kitchen1.jpg",
     "price":"4444$",
-    "catigory":"Kitchen"
+    "catigory":"Kitchen",
+    "quantity":1
 },
 {
     "id":2,
     "name":"Kitchen",
     "imgUrl":"../image/kitchen2.jpg",
     "price":"5690$",
-    "catigory":"Kitchen"
+    "catigory":"Kitchen",
+    "quantity":1
 },
 {
     "id":3,
@@ -18,70 +20,79 @@
     "imgUrl":"../image/kitchen3.jpg",
     "price":"4468$",
     "catigory":"Kitchen",
-    "Quantity":1
+    "quantity":1
 },
 {
     "id":4,
     "name":"Bedroom",
     "imgUrl":"../image/badroom1.jpg",
     "price":"5690$",
-    "catigory":"Bedroom"
+    "catigory":"Bedroom",
+    "quantity":1
 },
 {
     "id":5,
     "name":"Bedroom",
     "imgUrl":"../image/badroom2.jpg",
     "price":"5690$",
-    "catigory":"Bedroom"
+    "catigory":"Bedroom",
+    "quantity":1
 },
 {
     "id":6,
     "name":"Bedroom",
     "imgUrl":"../image/badroom3.jpg",
     "price":"5690$",
-    "catigory":"Bedroom"
+    "catigory":"Bedroom",
+    "quantity":1
 },
 {
     "id":7,
     "name":"Waiting Room",
     "imgUrl":"../image/waiting1.jpg",
     "price":"2000$",
-    "catigory":"Waiting"
+    "catigory":"Waiting",
+    "quantity":1
 },
 {
     "id":8,
     "name":"Waiting Room",
     "imgUrl":"../image/waiting2.jpg",
     "price":"2000$",
-    "catigory":"Waiting"
+    "catigory":"Waiting",
+    "quantity":1
 },
 {
     "id":9,
     "name":"Waiting Room",
     "imgUrl":"../image/waiting3.jpg",
     "price":"2000$",
-    "catigory":"Waiting"
+    "catigory":"Waiting",
+    "quantity":1
 },
 {
     "id":10,
     "name":"Waiting Room",
     "imgUrl":"../image/waiting4.jpg",
     "price":"2000$",
-    "catigory":"Waiting"
+    "catigory":"Waiting",
+    "quantity":1
 },
 {
     "id":11,
     "name":"Kitchen",
     "imgUrl":"../image/kitchen3.jpg",
     "price":"4468$",
-    "catigory":"Kitchen"
+    "catigory":"Kitchen",
+    "quantity":1
 },
 {
     "id":12,
     "name":"Bedroom",
     "imgUrl":"../image/badroom1.jpg",
     "price":"5690$",
-    "catigory":"Bedroom"
+    "catigory":"Bedroom",
+    "quantity":1
 }
 
 

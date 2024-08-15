@@ -6,13 +6,13 @@ import { useDispatch } from "react-redux";
 import { saveTodo } from "../slice/ProductSlice";
 import { useNavigate } from "react-router-dom";
 
-const ProductContent = ({id,name,imgUrl,price}) => {
+const ProductContent = ({id,name,imgUrl,price,quantity}) => {
   const dispatch=useDispatch()
   const navigate = useNavigate();
 
   const handelSubmit = (e) => {
     e.preventDefault();
-    dispatch(saveTodo({ id, name, imgUrl, price }));
+    dispatch(saveTodo({ id, name, imgUrl, price,quantity }));
     navigate(`/detailles`);
 
   

@@ -4,8 +4,9 @@ import {restord ,add } from "../slice/ProductSlice";
 
 
 import { useDispatch, useSelector } from 'react-redux';
-const ItemsDetailles = ({id,name,imgUrl,price}) => {
-    const Quantity = useSelector((state) => state.cart.Quantity);
+const ItemsDetailles = ({id,name,imgUrl,price,quantity}) => {
+    // const Quantity = useSelector((state) => state.cart.Quantity);
+   
     const dispatch=useDispatch()
 
   return (
@@ -17,14 +18,16 @@ const ItemsDetailles = ({id,name,imgUrl,price}) => {
     <div>
         <h3>{name}</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ullam temporibus quasi repellendus atque molestias suscipit deserunt dolore quaerat, obcaecati cupiditate fugit voluptatibus consectetur, iste nostrum perspiciatis commodi necessitatibus iure.</p>
-        <p>{price} * {Quantity}</p>
+        <p>{price} * {quantity}</p>
     </div>
     
 </div>
 </div>
     <div className="d-flex justify-content-center m-5">
-        <Button onClick={()=>dispatch(restord())}>-</Button> <h4 className='ms-3 me-3'> {Quantity} </h4> <Button onClick={()=>dispatch(add())}>+</Button> <Button className='ms-3 me-3'>buy now</Button>
-    </div>
+    <Button onClick={() => dispatch(restord({ id }))}>-</Button>
+                <h4 className='ms-3 me-3'> {quantity} </h4>
+                <Button onClick={() => dispatch(add({ id }))}>+</Button>
+                <Button className='ms-3 me-3'>buy now</Button>    </div>
 
     </div>
   )
